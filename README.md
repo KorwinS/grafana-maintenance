@@ -22,12 +22,12 @@ Example `configuration.py`:
 #!/usr/bin/env python3
 
 prod = {
-    'host': 'grafana.qlmetrics.com',
+    'host': 'prod.hostname.com',
     'token': 'Bearer {TOKEN HERE}'
 }
 
 test = {
-    'host': 'test.squigglelines.com',
+    'host': 'test.hostname.com',
     'token': 'Bearer {TOKEN HERE}'
 }
 ```
