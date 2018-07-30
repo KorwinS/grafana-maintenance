@@ -1,6 +1,6 @@
-# Grafana Management Tools
+# Grafana Maintenance Mode
 
-A collection of scripts and random junk that we use to work with Grafana.
+Python scripts to pause and unpause active alerts via Grafana's Alerting API 
 
 ## Scripts
 
