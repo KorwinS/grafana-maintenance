@@ -4,10 +4,6 @@ A collection of scripts and random junk that we use to work with Grafana.
 
 ## Scripts
 
-### alert_check.py
-
-We found an odd bug where the alerting engine in Grafana crashed, but the app kept running and no one knew about it, while the alerts were stuck in a pending state. This python script runs as a cron job on the Grafana EC2 hosts, hits the Grafana API, and checks to see if more than half of the alerts are "pending", and sends a notification to SNS if it is.
-
 ### alert_shh.py
 
 Starts a "Maintenance Mode" for Grafana when we need to take down InfluxDB. This script will generate a simple txt file with the IDs of the alerts
