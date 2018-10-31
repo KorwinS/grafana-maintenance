@@ -5,11 +5,11 @@ import os
 from pathlib import Path
 import time
 
-URL = "https://" + cfg.test['host']
+URL = "https://" + cfg.prod['host']
 HEADERS = {
     'Content-Type': "application/json",
     'Cache-Control': "no-cache",
-    'Authorization': cfg.test['token']
+    'Authorization': cfg.prod['token']
 }
 
 
