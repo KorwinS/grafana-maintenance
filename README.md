@@ -18,6 +18,10 @@ Requires a `configuration.py` (example below) file with prod and test info to be
 
 Takes Grafana out of "Maintenance Mode" by reading the values in the txt file in the directory.
 
+### datasource_name_updates.py
+
+Updates the name of a datasource in all dashboard json in a directory. Useful if you decide to standardize on datasource names after the fact.
+
 ### cw_datasource.py
 
 A script to create a Cloudwatch data source via the Grafana API. The `create_datasource()` function takes 4 arguments:
